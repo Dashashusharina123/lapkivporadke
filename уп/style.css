@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #85bed466;
+}
+header a{
+    color: black;
+}
+header .navigation{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header .navigation .logo img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+header .navigation .links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 18px;
+}
+header .navigation .links .voiti{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+}
+header .navigation .links a{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif
+}
+header .navigation .links a:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #85bed49f;
+    margin-top: 10px;
+    opacity: 0;
+    transition: 0.7s;
+}
+header .navigation .links a:hover{
+    color: white;
+}
+header .navigation .links .voiti a:hover{
+    color: white;
+}
+.str-1{
+    background-color: #87BFD6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+}
+.str-1 .container .chasti{
+    display: flex;
+    flex-direction: row;
+}
+.str-1 .container .vtor{
+    width: 40%;
+}
+.str-1 .container .pervaia{
+    width: 60%;
+}
+.str-1 .container .pervaia .text1{
+    color: white;
+    margin-top: 160px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.str-1 .container .vtor .pic-4 img{
+    width: 600px;
+}
+.str-1 .container .pervaia .text1 h1{
+    font-family: 'Montserrat', sans-serif
+}
+.str-1 .container .pervaia .kn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+}
+.str-1 .container .pervaia .kn .knopka1 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+}
+.str-1 .container .pervaia .kn .knopka1 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-1 .container .pervaia .kn .knopka1{
+    margin-right: 30px;
+}
+.str-1 .container .pervaia .kn .knopka2{
+    margin-left: 30px;
+}
+.str-1 .container .pervaia .kn .knopka2 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+}
+.str-1 .container .pervaia .kn .knopka2 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-1 .container .pervaia .niz .iconki{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 55px;
+    width: 200px;
+    padding-top: 20px;
+    justify-content: space-between;
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s;
+}
+.str-1 .container .pervaia .niz .iconki .pic-1{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer; /* Указатель курсора при наведении */
+}
+.str-1 .container .pervaia .niz .iconki .pic-1 i{
+    color: white; /* Начальный цвет иконки */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+.str-1 .container .pervaia .niz .iconki .pic-1 i:hover{
+    color: black;
+}
+.str-1 .container .pervaia .niz{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.str-1 .container .pervaia .niz .text2 p{
+    font-size: 19px;
+    color: white;
+    font-family: 'Montserrat', sans-serif
+}
+.str-1 .container .pervaia .niz .text2{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.str-2{
+    background-color: #CEE5EE;
+}
+.str-2 .container .blok2 .kartochki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 77px ;
+    padding-bottom: 113px;
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .txt2 p{
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .txt2{
+    padding-top: 25.41px;
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .txt{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .txt p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .pic-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 63px;
+    justify-content: baseline;
+}
+.str-2 .container .blok2 .kartochki .kartochka1 .pic-2 img{
+    width: 99px;
+    height: 100px;
+}
+.str-2 .container .blok2 .kartochki .kartochka1{
+    border: 3px solid #85BDD4;
+    background-color: white;
+    width: 282px;
+    height: 388.5px;
+}
+.str-2 .container .blok2 .text3{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding-top: 113px;
+}
+.str-2 .container .blok2 .text3 p{
+    font-family: 'Montserrat', sans-serif
+}
+.str-2 .container .blok2 .opis p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+.str-2 .container .blok2 .opis{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 58.81px;
+}
+.str-2 .container .blok2 .kartochki .kartochka1:hover{
+    border-color: #E982BA;
+}
+.str-3 .container{
+    background-image: url(./фотки/ajy.png);
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    background-size: cover;
+}
+.str-3{
+    background-color: #82A7B6;
+}
+.str-3 .container .blok3 .yslyga1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+.str-3 .container .blok3 .yslyga1 .nazv p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-weight: 500;
+}
+.str-3 .container .blok3 .yslyga1 .opisan{
+    padding-top: 5px;
+    color: white;
+}
+.str-3 .container .blok3 .yslyga1 .opisan p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.str-3 .container .blok3 .yslyga2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.str-3 .container .blok3 .yslyga2 .nazv p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-weight: 500;
+}
+.str-3 .container .blok3 .yslyga2 .opisan{
+    padding-top: 5px;
+    color: white;
+}
+.str-3 .container .blok3 .yslyga2 .opisan p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.str-3 .container .blok3 .yslyga3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 113px;
+}
+.str-3 .container .blok3 .yslyga3 .nazv p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-weight: 500;
+}
+.str-3 .container .blok3 .yslyga3 .opisan{
+    padding-top: 5px;
+    color: white;
+}
+.str-3 .container .blok3 .yslyga3 .opisan p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.str-3 .container .blok3 .zagl{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 113px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif
+}
+.str-3 .container .blok3 .zagl p{
+    font-family: 'Montserrat', sans-serif
+}
+.str-3 .container .blok3 .yslyga1 .knopka3{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.str-3 .container .blok3 .yslyga2 .knopka3{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.str-3 .container .blok3 .yslyga3 .knopka3{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.str-3 .container .blok3 .yslyga1 .knopka3 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+    font-family: 'Montserrat', sans-serif
+}
+.str-3 .container .blok3 .yslyga1 .knopka3 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-3 .container .blok3 .yslyga2 .knopka3 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+    font-family: 'Montserrat', sans-serif
+}
+.str-3 .container .blok3 .yslyga2 .knopka3 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-3 .container .blok3 .yslyga3 .knopka3 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+    font-family: 'Montserrat', sans-serif
+}
+.str-3 .container .blok3 .yslyga3 .knopka3 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-4 .container{
+    background-image: url(./фотки/кот.png);
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    background-size: cover;
+}
+.str-4{
+    background-color: #BF9798;
+}
+.str-4 .container .blok4 .yslyga12{
+    display: flex;
+    flex-direction: row;
+    padding-top: 168px;
+}
+.str-4 .container .blok4 .yslyga12 .nazv2 p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-weight: 500;
+}
+.str-4 .container .blok4 .yslyga12 .opisan2{
+    padding-top: 5px;
+    color: white;
+}
+.str-4 .container .blok4 .yslyga12 .opisan2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.str-4 .container .blok4 .yslyga22{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 113px;
+}
+.str-4 .container .blok4 .yslyga22 .nazv2 p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-weight: 500;
+}
+.str-4 .container .blok4 .yslyga22 .opisan2{
+    padding-top: 5px;
+    color: white;
+}
+.str-4 .container .blok4 .yslyga22 .opisan2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.str-4 .container .blok4 .zagl2{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 113px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif
+}
+.str-4 .container .blok4 .zagl2 p{
+    font-family: 'Montserrat', sans-serif
+}
+.str-4 .container .blok4 .yslyga12 .knopka32{
+    margin-left: 290px;
+    margin-top: 80px;
+}
+.str-4 .container .blok4 .yslyga22 .knopka32{
+    margin-left: 320px;
+    margin-top: 80px;
+}
+.str-4 .container .blok4 .yslyga12 .knopka32 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+    font-family: 'Montserrat', sans-serif
+}
+.str-4 .container .blok4 .yslyga12 .knopka32 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-4 .container .blok4 .yslyga22 .knopka32 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+}
+.str-4 .container .blok4 .yslyga22 .knopka32 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-5{
+    background-color: #87BFD6;
+}
+.str-5 .container .blok5 .glav{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 113px;
+    font-size: 28px;
+}
+.str-5 .container .blok5 .glav h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.str-5 .container .blok5 .foto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 270px;
+    background-color: white;
+    width: 915px;
+    margin-left: 150px;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+.str-5 .container .blok5 .foto .pc1{
+    display: flex;
+    align-items: center;
+}
+.str-5 .container .blok5 .foto .pc1 img{
+    height: 200px;
+}
+.str-5 .container .blok5 .knopka5{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.str-5 .container .blok5 .knopka5 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 20px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 57;
+    margin-bottom: 113px;
+}
+.str-5 .container .blok5 .knopka5 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333; /* Цвет текста при наведении */
+}
+.str-6{
+    background-image: url(./фотки/патерн.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.str-6 .container .blok6 .ob{
+    
+    display: flex;
+    flex-direction: column;
+    height: 446px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    margin-bottom: 160px;
+}
+.str-6 .container .blok6 .ob .obrat{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 90px;
+    font-size: 28px;
+    background-color: #CEE5EE;
+}
+.str-6 .container .blok6 .ob .stroka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 122px;
+    background-color: #CEE5EE;
+    padding-bottom: 90px;
+}
+.str-6 .container .blok6 .ob .stroka .texttt{
+    text-align: center;
+    margin-left:50px ;
+}
+.str-6 .container .blok6 .ob .stroka .texttt p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 23px;
+}
+.str-6 .container .blok6 .ob .stroka .knopka6{
+    margin-top: 10px;
+}
+.str-6 .container .blok6 .ob .stroka .knopka6 .button-auth{
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 15px; /* Закругленные уголки */
+    padding: 20px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход цветов */
+    width: 190px;
+    height: 40;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.str-6 .container .blok6 .ob .stroka .knopka6 .button-auth:hover{
+    background-color: white; /* Фон при наведении */
+    color: #333;
+}
+.str-6 .container .blok6 .ob .stroka .logotip{
+    margin-right: 50px;
+    margin-top: -70px;
+}
+.str-6 .container .blok6 .ob .stroka .logotip img{
+    width: 300px;
+}
+.str-7 {
+    background-color:#87BFD6 ;
+}
+.str-7 .container .blok7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.str-7 .container .blok7 .logoniz{
+    margin-left: 20px;
+}
+.str-7 .container .blok7 .iconki2{
+    display: flex;
+    flex-direction: row;
+}
+.str-7 .container .blok7 .iconki2 .pic-122 {
+    color: white;
+    font-size: 45px;
+    width: 70px;
+    padding-top: 10px;
+    justify-content: space-between;
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s, color 0.3s;
+}
+.str-7 .container .blok7 .iconki2 .pic-122 i{
+    color: white; /* Начальный цвет иконки */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+.str-7 .container .blok7 .iconki2 .pic-122 i:hover{
+    color: black;
+}
